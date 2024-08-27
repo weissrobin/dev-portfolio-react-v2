@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Neue Montreal';
+        src: url('../fonts/PPNeueMontreal-Book.otf');
+    }
+    @font-face {
+        font-family: 'Neue Montreal Thin';
+        src: url('../fonts/PPNeueMontreal-Thin.otf');
+    }
+    @font-face {
+        font-family: 'Neue Montreal Bold';
+        src: url('../fonts/PPNeueMontreal-Bold.otf');
+    }
+}
