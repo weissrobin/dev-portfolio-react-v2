@@ -11,8 +11,7 @@ const Home = () => {
                 where less is more.
                 Every pixel has a purpose 
                 and every project has a soul. 
-                Discover the elegance of 
-                simplicity in my portfolio.
+                Discover the elegance in my portfolio.
             </p>
         </div>
     )
